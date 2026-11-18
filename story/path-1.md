@@ -1,23 +1,5 @@
 <!--
   PATH-1.MD: one teammate's part of the story.
-
-  Put your name after by: below. It's shown at the end of your endings.
-
-  Your first scene must be called path-1. The crossroads scene in start.md
-  links to #path-1, so that's how players get here. Everything else in this
-  file is yours: rewrite it, add scenes, add endings.
-
-  Cheat sheet:
-    ## scene-name                  starts a new scene (lowercase letters,
-                                   numbers and dashes, no spaces)
-    Any text you like.             a blank line starts a new paragraph
-    **bold**   *italic*
-    ![What the picture shows](images/my-picture.png)
-    get: lantern                   the player picks up a lantern
-    [Open the door](#hall)         a choice: leads to the scene called hall
-    [Unlock it](#vault) if key     a choice that only works if you have a key
-    THE END                        this scene is an ending
-
   Lines inside these comment marks are notes. Players never see them.
 -->
 
@@ -30,6 +12,7 @@ A little sign on the house next door says KEEPER in faded paint.
 
 [Knock on the bakery door](#bakery)
 [Knock on the keeper's house](#old-keeper)
+[Help the village watch the harbor](#harbor-watch)
 [Go back to the crossroads](#crossroads)
 
 ## bakery
@@ -57,3 +40,16 @@ An old man opens the door just a crack. "Abernathy," he says. "I kept that light
 "The tower door is locked, and the only key went down with my boat when she sank off the south beach. If you want that light lit, the key is in the wreck."
 
 [Go back to the crossroads](#crossroads)
+
+## harbor-watch
+You gather the villagers on the seawall. Rosa brings lanterns from the bakery, and the old keeper shows everyone how to flash a warning toward the ship.
+
+The lights travel from house to house until the whole harbor glows. Out in the fog, the ship turns away from the rocks.
+
+[Stay with the villagers until dawn](#harbor-ending)
+[Return to the crossroads](#crossroads)
+
+## harbor-ending
+At sunrise, the ship is safe in the harbor. The villagers cheer, and the old keeper says the island has a new tradition: nobody watches the light alone.
+
+THE END
